@@ -1,0 +1,22 @@
+p{
+    color:brown;
+}
+#parrafo2{
+    background-color: orchid;
+}
+.clase1{
+    background-color: cadetblue;
+}
+input:focus{
+    background-color: red;
+}
+button:hover{
+    background-color: royalblue;
+}
+p::first-letter{
+    font-size: 40px;
+}
+p::selection{
+    background-color: black;
+    color: white;
+}
