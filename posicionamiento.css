@@ -1,0 +1,46 @@
+*{
+    border: 2px solid black;
+}
+img{
+    display: block;
+}
+a{
+    display: inline-block;
+    height: 50px;
+}
+ul{
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+}
+li{
+    display: inline-block;
+}
+li:hover{
+    background-color: blue;
+}
+.img2{
+    display: none;
+}
+#pos_relative{
+    width: 75%;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    z-index: -1;
+}
+#padre{
+    width: 75%;
+    height: 200px;
+}
+#hijo{
+    width: 50%;
+    position: absolute;
+    bottom: 20px;
+}
+#div_fixed{
+    width: 200px;
+    position: fixed;
+    right: 0px;
+    top: 50%;
+}
