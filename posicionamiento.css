@@ -1,6 +1,9 @@
 *{
     border: 2px solid black;
 }
+body{
+    background-color: rgb(200, 200, 200);
+}
 img{
     display: block;
 }
@@ -43,4 +46,5 @@ li:hover{
     position: fixed;
     right: 0px;
     top: 50%;
+    border: solid 5px;
 }
