@@ -40,3 +40,17 @@ d: Elementos y pseudo-elementos
     color: black;
 }
 */
+@media (max-width: 400px){
+    #menu{
+        padding: 0px;
+        color: white;
+        background-color: black;
+    }
+}
+@media (min-width: 450px){
+    #menu{
+        padding: 0px;
+        color: white;
+        background-color: black;
+    }
+}

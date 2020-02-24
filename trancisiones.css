@@ -1,0 +1,61 @@
+#ej_trans{
+    border: 1px solid black;
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    transition: height 2s;
+}
+#ej_trans:hover{
+    height: 300px;
+}
+#ej_ani{
+    border: black solid 1px;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    animation-name: ejemplo1ANI;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+@keyframes ejemplo1ANI{
+    from{background-color: red;}
+    to{background-color: royalblue;}
+}
+@keyframes ejemplo2ANI{
+    0%{left: 200px;}
+    25%{left: 200px; top: 200px;}
+    50%{top: 200px;}
+    75%{right: 200px; top: 200px;}
+    100%{left: 0px; top: 0px;}
+}
+#div_menu{
+    background-color: black;
+}
+#menu{
+    padding: 0px;
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    width: 50%;
+}
+#menu li{
+    display: inline-block;
+    padding: 10px;
+    width: 200;
+}
+#menu li:hover{
+    background-color: white;
+    color: black;
+}
+#search{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+#search input{
+    width: 50px;
+    transition: width 2s;
+}
+#search input:focus{
+    width: 150px;
+}
