@@ -1,0 +1,18 @@
+html{
+    font-size: 20px;
+}
+div{
+    font-size: 30px;
+}
+.ej_em{
+    font-size: 0.5em;
+}
+.ej_rem{
+    font-size: 1rem;
+}
+.ej_vh{
+    font-size: 10vh;
+}
+.ej_vw{
+    font-size: 12vw;
+}
